@@ -1,4 +1,4 @@
-#include "mathTest.h"
+#include "MathLibrary.h"
 #include <iostream>
 #include <algorithm>
 #include <cmath>
