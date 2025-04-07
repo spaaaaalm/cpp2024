@@ -1,0 +1,3 @@
+C:/Users/pes_sosun/Documents/cpp2024/sem1/BuchelnikovEgor/minihw2_sem2/build/CMakeFiles/NotMinesweeper.dir
+C:/Users/pes_sosun/Documents/cpp2024/sem1/BuchelnikovEgor/minihw2_sem2/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/pes_sosun/Documents/cpp2024/sem1/BuchelnikovEgor/minihw2_sem2/build/CMakeFiles/ZERO_CHECK.dir
