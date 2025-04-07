@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\pes_sosun\Documents\cpp2024\sem1\BuchelnikovEgor\minihw2_sem2\build\CMakeFiles\4f9d7e84dad9a22bd7aab42fdcbc8af6\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{37CEF697-7FBD-3FAD-B02D-AFFC22332484}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
