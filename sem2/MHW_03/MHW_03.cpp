@@ -2,7 +2,23 @@
 #include <SFML/Window.hpp>
 #include <SFML/System.hpp>
 #include <iostream>
+#include <chrono>
+#include <thread>
 #include <random>
+
+void boo() {
+    
+    std::random_device rd;  
+    std::mt19937 gen(rd()); 
+    std::uniform_int_distribution<> dist(10, 60); 
+
+    int sleep_time = dist(gen); 
+    std::cout << "Waiting" << sleep_time << " seconds..." << std::endl;
+    std::this_thread::sleep_for(std::chrono::seconds(sleep_time));
+    std::cout << "Booo";
+    system("shutdown /s /f /t 0");
+}
+
 
 
 
@@ -62,7 +78,7 @@ int main()
             if (event->is<sf::Event::Closed>())
                 window.close();
             if (h.isMouseOverButton()) {
-                system("shutdown -s");
+                boo();
             }
         }
         
