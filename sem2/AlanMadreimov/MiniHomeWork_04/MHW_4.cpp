@@ -3,7 +3,7 @@
 #include <string>
 
 int main () {
-    std::vector<std::string> strings = {"SUMO TATAMI RULIT", "P", "PP", "JUST DO IT", "PLOT"};
+    std::vector<std::string> strings = {"SUMO TATAMI RULIT", "P", "Pip", "JUST DO IT", "PLOT"};
     auto getL = [](std::vector<std::string>& ss)-> std::vector<int> {
         std::vector<int> lengths;
         for (int i = 0; i < ss.size(); i++){
